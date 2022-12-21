@@ -1,8 +1,10 @@
 #! /bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
+xrandr -s 1920x1080
 picom &
-feh --bg-fill ~/Pictures/wallpaper/upsidedown.png &
+feh --bg-fill ~/Pictures/Wallpapers/upsidedown.png &
+# polybar & # working on
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
