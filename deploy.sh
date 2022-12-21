@@ -9,9 +9,9 @@ sudo mv ~/.config/picom ./old_dot_files/
 
 # Insert new dotfiles
 echo "Inserting new dotfiles.."
-cp -r /bspwm ~/.config/
-cp -r /sxhkd ~/.config/
-cp -r /picom ~/.config/
+cp -r bspwm ~/.config/
+cp -r sxhkd ~/.config/
+cp -r picom ~/.config/
 
 echo "All done!"
 
