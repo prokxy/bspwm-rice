@@ -1,5 +1,5 @@
-# My dotfiles
-my linux dot files
+# Bspwm Arch linux rice / DreamOS
+dotfiles for my "DreamOS"
 ## To deploy these dotfiles
 ```bash
 ./deploy.sh
