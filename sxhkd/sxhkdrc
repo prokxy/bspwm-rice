@@ -6,9 +6,9 @@
 super + Return
 	kitty
 
-# program launcher
+# Rofi app launcher
 super + @space
-	dmenu_run
+	rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -121,5 +121,6 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 
+# browser
 super + shift + {s}
-  flatpak run org.mozilla.firefox
+	librewolf
